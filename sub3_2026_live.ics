@@ -1,35 +1,1444 @@
-from datetime import datetime
-
-def add_recalibration_events(cal):
-
-    recal_dates = [
-        date(2026,2,24),
-        date(2026,3,31),
-        date(2026,4,21),
-        date(2026,7,28),
-        date(2026,8,25),
-        date(2026,9,29),
-        date(2026,10,27),
-        date(2026,11,24),
-        date(2026,12,22)
-    ]
-
-    for d in recal_dates:
-        e = Event()
-        e.name = "Monthly Pace Recalibration"
-        e.begin = d
-        e.make_all_day()
-        e.description = (
-            "30-Min Threshold Time Trial\n\n"
-            "• 10–15 min warm-up\n"
-            "• 30 min hard effort\n"
-            "• Record avg pace final 20 min\n\n"
-            "Update training paces:\n"
-            "Effort 3 = test pace\n"
-            "Effort 2 = +15–20 sec/km\n"
-            "Effort 1 = +35–45 sec/km"
-        )
-        cal.events.add(e)
-
-# After generating weekly events, call:
-add_recalibration_events(cal)
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260318
+DESCRIPTION:Weekly Target: 84 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:2531ae18-3a63-4570-90ab-4b63257fea8b@2531.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260804
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:369a9c21-0a71-49e0-8eb5-306fc8e1f205@369a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260429
+DESCRIPTION:Weekly Target: 58 km\nToday's Target: 10 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:10 km Run
+UID:8ac457e1-e2ac-4125-b26b-7b489f68acad@8ac4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260404
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 29 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:29 km Run
+UID:7360c167-c7f5-4220-8319-5114059c2904@7360.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260301
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 12 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:12 km Run
+UID:3c1b2aee-4b9d-4c21-b8be-80940692ddc5@3c1b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DESCRIPTION:Weekly Target: 82 km\nToday's Target: 26 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:26 km Run
+UID:535b9861-de1e-4191-85c4-3cefa25d827b@535b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260414
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:62b511e3-9f54-4b54-bada-d84bcd2ba40d@62b5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260516
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 22 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:22 km Run
+UID:bef14329-8ae2-434a-a669-b7b5eb102103@bef1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260812
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:5a174b58-92c6-4d20-a9d4-6be2bd104173@5a17.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260720
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:600c2e6e-859c-4a7e-8496-082b83a20e66@600c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260811
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:217ca680-3114-4498-afaa-d03fb3a68f63@217c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260611
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:cafab865-fc9d-472b-811a-0c1b9d39883e@cafa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260725
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 21 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:21 km Run
+UID:022e5c2c-c3f4-45c3-9639-f0a9be1b12a0@022e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260709
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:ef0db2cd-b2a1-4b9b-b11d-99e9e5e1c664@ef0d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260427
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:571fac5c-5c6d-45d2-9398-1d6cedf58b9d@571f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260904
+DESCRIPTION:Weekly Target: 96 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:d9ecec9e-fb04-4b99-9434-64ccd5969a9f@d9ec.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260711
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 27 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:27 km Run
+UID:476e9316-8fcf-4ebf-a34c-a520993d08ea@476e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260921
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:1ae17d47-e763-404e-8667-6613e18e784a@1ae1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260815
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 30 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:30 km Run
+UID:29997167-365f-4fe3-afac-304713f94753@2999.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260601
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:1e2b9453-729e-40a8-aee1-263791b4e6c9@1e2b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260912
+DESCRIPTION:Weekly Target: 98 km\nToday's Target: 31 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:31 km Run
+UID:624e8c6a-480e-437e-9a21-0ad7c298d485@624e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260917
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:9c909cb1-87a0-4b69-837c-838c980f9b56@9c90.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260913
+DESCRIPTION:Weekly Target: 98 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:d08d41b4-b2d9-468f-96b1-729d76b4f411@d08d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260606
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 20 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:20 km Run
+UID:6c35170c-a283-4184-bbf8-61319b60131c@6c35.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260702
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:8d95bedd-e96e-402a-b1f1-7ef0588f7210@8d95.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260623
+DESCRIPTION:Weekly Target: 60 km\nToday's Target: 11 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:11 km Run
+UID:4c11f1c2-660a-42e2-bb21-2a14e5fc287a@4c11.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260803
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:d1301aa9-70de-4c39-bdb1-6d696d8fb2d7@d130.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260509
+DESCRIPTION:Weekly Target: 50 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:c799a904-3e89-496f-a0c5-71af62b7987c@c799.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260329
+DESCRIPTION:Weekly Target: 88 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:9dcdba94-635d-4dda-81ab-725459152163@9dcd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260705
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:00d9261e-75e0-4ecd-973f-c667b45ab705@00d9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260903
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:17d75f8a-55dc-4963-96fb-689136401594@17d7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260907
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:96b06253-5d55-4098-b6be-58bb6c5cc4f5@96b0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260910
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:1f7a7f62-f1de-446e-85d8-f6c9bb622347@1f7a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260630
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:87369606-73e4-468f-9fa9-111e73e19a55@8736.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260416
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:bf05b878-ca9e-4eb7-95be-409aea014dff@bf05.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260724
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:0d36b0a9-4407-4ba6-9409-ccabbf86d522@0d36.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261003
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 21 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:21 km Run
+UID:4a1bed8e-79b8-4fc3-95d9-d4533e7221ec@4a1b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:8fe3a169-8f53-4e65-9ea6-3cdb937aaa79@8fe3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260218
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 12 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:12 km Run
+UID:49e30d54-4346-4fbd-acb5-2eaad7a3bdb4@49e3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260714
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:38d52bfd-a1d7-4d0d-93c0-a78dfb0caa62@38d5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260518
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:9d202434-5d0f-4b30-99a6-b8341637a21e@9d20.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:63fddf9a-b5e9-4dac-acdd-cb72fdf75c4e@63fd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260331
+DESCRIPTION:Weekly Target: 88 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:a2e87289-d457-48c0-94cb-e7cfae70a9bd@a2e8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:Weekly Target: 60 km\nToday's Target: 11 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:11 km Run
+UID:94601f85-adb2-495e-9e89-fc34ab85aa5b@9460.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261001
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:7d7490c4-14f2-4abc-a2be-402155c9a536@7d74.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260704
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 26 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:26 km Run
+UID:8db641a1-b0bd-4f54-9213-652ccc73b97d@8db6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260519
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:a17772ff-482e-41d4-a257-13ba18e47008@a177.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260729
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:bc5378c4-99e9-4725-bf19-4ecab8b74c0f@bc53.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260620
+DESCRIPTION:Weekly Target: 60 km\nToday's Target: 19 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:19 km Run
+UID:256dadff-72de-42d6-9a15-3f9fa7ec921d@256d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260723
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:1e63a7fa-a096-4a6a-a714-9e375c4c48a0@1e63.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260908
+DESCRIPTION:Weekly Target: 96 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:502b6eab-82b0-464c-a15d-32ff5984476f@502b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260401
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:51b007c6-cd0f-40f4-be7f-f774f0312d88@51b0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260826
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:b2a6ee0c-088c-466f-afe4-f78b849c2436@b2a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260305
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:c9e02b48-7552-4d03-8bc0-0ad3d4aef6fe@c9e0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260824
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:ef5bd390-8bd9-4152-9d19-675531b85603@ef5b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260810
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:9114299e-8d06-4ebf-99a1-99f67e8dbca7@9114.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260408
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:bea597c4-7e7f-417e-b0d2-91df1726d684@bea5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260501
+DESCRIPTION:Weekly Target: 58 km\nToday's Target: 10 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:10 km Run
+UID:d90d57ed-5b63-44e9-91d3-2112b43f43a1@d90d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260529
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:439a2b44-5d62-454f-898b-5818a933f042@439a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260302
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:57958b66-11f4-4c14-86c2-0425483f5ccf@5795.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260502
+DESCRIPTION:Weekly Target: 58 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:e78b9e47-5351-419a-9609-49245ca8a413@e78b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260716
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:729f8846-6ccb-47f8-a16e-8a8e3ab6f62e@729f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260801
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 29 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:29 km Run
+UID:6af69633-a434-412e-84b7-56f7e68ba389@6af6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260905
+DESCRIPTION:Weekly Target: 96 km\nToday's Target: 31 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:31 km Run
+UID:bf8ae0eb-1887-445c-9927-765fd8ab8c6e@bf8a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260906
+DESCRIPTION:Weekly Target: 96 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:b623da5e-c39a-472d-82d2-4cee3adf5be3@b623.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260625
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:c4c06b26-0be6-49d5-b597-78abe9ccbcaf@c4c0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260304
+DESCRIPTION:Weekly Target: 82 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:5ea420f0-e212-41d7-814d-17a4b2e6bd2b@5ea4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260306
+DESCRIPTION:Weekly Target: 82 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:7c6bb310-f354-4080-9285-62ea6eac429d@7c6b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260930
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:1a75f547-f14f-4426-9f2c-30586879001b@1a75.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260524
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:393f71f1-3623-49b0-a2a0-bd1a106c1e43@393f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260622
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:09956c78-0c1a-44c0-9a9f-b65a8b9f0287@0995.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260924
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:6e87fced-5ac7-475a-9f17-7427748de470@6e87.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261002
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:3dfe26f3-4703-4dbc-8fa7-da3cbf519e48@3dfe.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260822
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 22 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:22 km Run
+UID:9eda31d4-15f4-444e-8337-2e07626425a1@9eda.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260608
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:f18a963a-bbbe-4466-84fb-c7856c35da5d@f18a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260220
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:52544d3e-a6a6-4ee8-81d0-a1100917cd87@5254.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260825
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:83fd811b-7c47-4e26-bfad-5eb9cb808a9d@83fd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260226
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:515eca1a-95f8-4ab5-84d6-d6f916f91067@515e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260728
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:06142100-b339-4205-8b32-23fdbdd1dda5@0614.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260706
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:96efb2b5-35a4-4d9c-910f-5336a12aa2ba@96ef.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260916
+DESCRIPTION:Weekly Target: 100 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:da52bb72-a6be-40c3-b189-e92c4a890e5f@da52.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260511
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:fc983d01-6c56-4e8f-9fda-0c611bd8073b@fc98.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260418
+DESCRIPTION:Weekly Target: 94 km\nToday's Target: 30 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:30 km Run
+UID:f6ca8706-aab9-4885-bb1a-63d157be2202@f6ca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:9eae73d0-eeec-4d9c-84c8-6284b8613d67@9eae.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260322
+DESCRIPTION:Weekly Target: 84 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:98056f9e-a1d2-4e17-b632-6b736591fd28@9805.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260222
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 12 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:12 km Run
+UID:1ab28e92-8c7f-4b73-8cc1-5b8ee18ca683@1ab2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260315
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:d12a559c-d96b-4f9b-8d09-6993236778d7@d12a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260503
+DESCRIPTION:Goal Road Marathon
+SUMMARY:RACE: Flying Pig Marathon (42.2 km)
+UID:99c6d315-df89-4316-bfd0-0d410d2a3587@99c6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260602
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:d25e6fcf-d154-43ce-a045-8e7bac7f6236@d25e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260817
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:3cc272c5-f95d-40a3-882e-68d8f9dee96e@3cc2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260806
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:0886ef78-9e67-4722-b4c5-413934ece950@0886.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:b3ef3e63-434a-4e90-a78d-ed8dbfc10af8@b3ef.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260818
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:a64dd9cb-3f6e-4e25-a734-3cec8cad6ba0@a64d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261005
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:64e9fb4f-da43-43c9-8e83-c44f6cf17f13@64e9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260923
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:82ebe0bd-f9b4-4d63-9db4-73252a723822@82eb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260808
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 29 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:29 km Run
+UID:4005e27b-ad1d-497a-bd95-2f1ea74d6c1c@4005.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DESCRIPTION:Weekly Target: 94 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:5c7d5346-ca6e-4776-a022-4233e81d8344@5c7d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260902
+DESCRIPTION:Weekly Target: 96 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:25230578-ca80-4a18-898b-4482cc5e2411@2523.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260407
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:0c0e7a6f-d2f0-43a4-9304-08be8ef23020@0c0e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260523
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 26 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:26 km Run
+UID:194f9fed-268c-4058-a795-fc3eb1e27807@194f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260802
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:b650d067-afdc-4db8-bb3d-0dd34a29fa83@b650.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260628
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 11 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:11 km Run
+UID:996e8b6c-9e1f-4eb9-a015-6a9e7ce11412@996e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261222
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:6e8d730f-dd01-41ed-b000-ed82cc2778fe@6e8d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260929
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:9dd717dd-9690-476d-896d-5f753bc4450a@9dd7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260721
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:c929a640-0634-410a-aefe-07c1faf8887b@c929.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260410
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:63816f04-2af2-4ba8-a02f-4d5949ce7141@6381.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260614
+DESCRIPTION:Weekly Target: 45 km\nToday's Target: 8 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:8 km Run
+UID:a9dd9ca2-aedf-4366-870b-f6b120993468@a9dd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260925
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:2732da53-dd57-4865-b7fa-b9cfd15dee0f@2732.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260929
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:bce2bb08-7194-431a-a947-917e67f9f8d9@bce2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261124
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:8a0903f9-cfca-4097-8666-b80bc6267f18@8a09.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260327
+DESCRIPTION:Weekly Target: 88 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:e7ab30c8-65f5-4423-8744-ae1dd42c1ba4@e7ab.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260527
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:e0e9e4b0-a107-4a77-abc4-4bfab3aaf537@e0e9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260621
+DESCRIPTION:Weekly Target: 60 km\nToday's Target: 10 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:10 km Run
+UID:18e75268-1390-4c08-9584-77d84d0cc970@18e7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260412
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:43dccdaf-6c3d-4bca-a0e9-23511a0c8473@43dc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260713
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:581adae4-b102-4323-8600-632ac4d5e362@581a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260717
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:31e1ef6d-739c-40b5-93bb-625ebf25942d@31e1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260616
+DESCRIPTION:Weekly Target: 45 km\nToday's Target: 8 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:8 km Run
+UID:0d7e7bcf-388e-44fc-b082-91b0d2c5bb88@0d7e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260221
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 24 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:24 km Run
+UID:b8a0181b-f9fa-4f82-a46a-04874b87c565@b8a0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:4d8c052c-9550-4b69-bc5c-a9428fbdce43@4d8c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260308
+DESCRIPTION:Weekly Target: 82 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:3fe784fd-abec-4a80-99cf-bb728ccf3be7@3fe7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260624
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 11 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:11 km Run
+UID:e7dfc956-cbbc-4656-9a10-0aad4948ca6a@e7df.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260805
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:d2fe8415-063d-47aa-88d3-9c1b1374f670@d2fe.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260316
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:74fd37b9-7122-497b-a47f-f3c455a62a01@74fd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260604
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:9179de1b-4c29-4f19-99e4-2ade81ec8010@9179.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260605
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:ef72b228-c4c3-428d-8fc7-e8b793d04091@ef72.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:6b266bdc-4699-4977-a0ce-4a3895c53459@6b26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+DESCRIPTION:Weekly Target: 45 km\nToday's Target: 8 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:8 km Run
+UID:2c25fc06-b1bd-4e52-b15d-736858c8ae0c@2c25.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260525
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:e1ee20c5-54cf-4475-b161-1e5aa4a69519@e1ee.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260701
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:7333dde8-415c-4b17-9993-cb75ea5db560@7333.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260309
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:289df06d-c470-469d-b0b3-74a28f16c652@289d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260522
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:f4e28f87-250e-4026-b018-088ecd52751f@f4e2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260821
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:e02185d2-1043-4b98-8a99-c38a8ad3a787@e021.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:967119f7-f4d6-469e-b448-5539556e9b7f@9671.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260512
+DESCRIPTION:Weekly Target: 50 km\nToday's Target: 9 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:9 km Run
+UID:3d9cab90-5c4b-42ad-8128-84194e28b427@3d9c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260521
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:21e6a9db-704f-4c0f-8e73-a83acac3c8f0@21e6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260828
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:c86bccb9-8db7-4e38-9ccb-77071cef35e7@c86b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260426
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:3dcadaf5-19f3-48d2-a17c-8ea25fc464ef@3dca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260324
+DESCRIPTION:Weekly Target: 84 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:6f2b8dce-4748-4f4b-bfdc-7eb64aa67814@6f2b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260517
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 11 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:11 km Run
+UID:3870740c-d374-44ac-8709-239c1dda3350@3870.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260607
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:06cddc7b-ede4-4ae5-bc30-6c485d65caff@06cd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260730
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:244a3617-cc3c-4dfb-98e7-4f13e90d82c6@244a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260926
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 24 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:24 km Run
+UID:6adfc5fa-5ad3-421f-a089-770b49d44777@6adf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260618
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:3c21afc6-0417-4e32-886b-2df4da33ca9c@3c21.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260825
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:125e741f-4b0c-46e0-a16e-9cd57144a6b0@125e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260827
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:c29c469a-221d-4c4e-825d-a7e187a3304f@c29c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260311
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:69c86167-b209-4412-8e01-80bd0d8cdf99@69c8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260911
+DESCRIPTION:Weekly Target: 98 km\nToday's Target: 18 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:18 km Run
+UID:3ff60cb5-2b98-4412-a5f8-351390600b2d@3ff6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260508
+DESCRIPTION:Weekly Target: 50 km\nToday's Target: 9 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:9 km Run
+UID:adba28ce-c3fe-4439-8bb5-105bec75bbba@adba.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260901
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:8f7c8efd-052a-4237-9a01-c571261606aa@8f7c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260328
+DESCRIPTION:Weekly Target: 88 km\nToday's Target: 28 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:28 km Run
+UID:ea244a6f-6fe5-4280-8886-37b464f6159c@ea24.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260430
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:8cfb705c-b5c9-4c33-9fe0-b2c49795703a@8cfb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260707
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:bb2df363-ae6b-45c9-9597-fad5310777fd@bb2d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260428
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:b26bbf43-5252-4fec-8959-12ab12250957@b26b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260320
+DESCRIPTION:Weekly Target: 84 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:49902380-a169-40fb-95b8-e51330bed43f@4990.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260830
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:968e6b07-d4b9-4e45-be2c-a19914a5bd5e@968e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260321
+DESCRIPTION:Weekly Target: 84 km\nToday's Target: 27 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:27 km Run
+UID:2f3324d7-7580-4210-a803-2e753107b8ae@2f33.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260423
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:3f24a45a-91f8-4066-8c65-642d68529374@3f24.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260703
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:15218173-e8be-42bd-aa67-888dbc940d2e@1521.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260227
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:cefc5df9-8496-4d3d-9b7f-77c98bcd7e46@cefc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260909
+DESCRIPTION:Weekly Target: 98 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:20ed84f1-b355-4606-a3c5-b34f556d40bd@20ed.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261027
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:da6be845-aade-4bf3-803b-24f1d49d1411@da6b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 22 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:22 km Run
+UID:54457c4b-5ef6-42f5-b40e-cff1dfc3c37d@5445.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260603
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:a2e84e09-c858-4f82-b7c6-276a9447cea0@a2e8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260331
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:c4c6b97e-46c7-467b-b037-ba111fe8ffb8@c4c6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260727
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:a1ce4d83-f8d5-45da-bff6-b584a34ba5ca@a1ce.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260809
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:420fc389-4dc7-4afa-88f2-18ac50c5e19e@420f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261006
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:7270da09-5d00-4e2f-9d03-58ba1126e49f@7270.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260405
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:d4035603-f9c6-49f4-8791-eae7f887eb3a@d403.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260425
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 21 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:21 km Run
+UID:c720c585-6c1b-43fd-8da2-33cee64c2dd7@c720.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260530
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 27 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:27 km Run
+UID:01daaaed-3af2-4258-9fde-0f337a32cee6@01da.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260920
+DESCRIPTION:Weekly Target: 100 km\nToday's Target: 16 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:16 km Run
+UID:80a96731-6235-47b4-8b92-9b0b29ebb396@80a9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260726
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:a4b7364d-c22e-4dbe-9a4f-2bbb38d074ba@a4b7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260927
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:017605a5-ae08-4125-afc2-81ef4c136a27@0176.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260626
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:4ea43a20-072c-4dda-938d-4de2e5b624d0@4ea4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260219
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:3a059f46-b766-46b9-937e-17f49002a77d@3a05.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261004
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:9937908d-b840-4628-93f3-fdacc66d6783@9937.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260520
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:9c2b77fc-58a7-48a2-8c0c-ce4a8249a26c@9c2b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260303
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:4825cdec-017a-4087-bbc2-b3c8ca4596c1@4825.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260831
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:63e3c8c7-0796-47d5-81fa-538e86360bd3@63e3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260928
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:97e649d7-5c19-4f87-ad95-b2dcc19d7580@97e6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260807
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:e6c039a6-9e7f-4686-b281-bdffba21f2a4@e6c0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260417
+DESCRIPTION:Weekly Target: 94 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:6bac3bc0-9fd3-42f4-b7bf-244caf05da60@6bac.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260829
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 30 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:30 km Run
+UID:f3f76cc7-17be-4896-8663-269ee3215bed@f3f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260330
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:0f9fe7dc-9094-4d1c-8201-abed61ffe342@0f9f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260326
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:7c82e1ac-35ef-4b91-808a-465172b9e066@7c82.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260629
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:7fdd5827-eb03-4dab-816b-c012b7ea05d2@7fdd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:d3f9bc55-06ba-4823-8c3f-3a603f5416dd@d3f9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260816
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:960bb428-5f7f-41a6-8732-fbd268cb902f@960b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260317
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:bb60804d-a319-4f96-a85f-77011fed084f@bb60.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260314
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 20 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:20 km Run
+UID:03ddf0b5-393e-4b6e-a22e-f1c8bc6f3dfe@03dd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260708
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:2fe2a6ec-74cf-4f87-a38a-29a5075bb63f@2fe2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 22 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:22 km Run
+UID:0d94160e-6467-430e-ae0d-ca907b2c4b5d@0d94.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260312
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:7a00979b-8bda-46e7-a97e-15727746b110@7a00.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260919
+DESCRIPTION:Weekly Target: 100 km\nToday's Target: 32 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:32 km Run
+UID:d729eb34-a41f-4ea0-8c76-456e07e74a83@d729.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260814
+DESCRIPTION:Weekly Target: 95 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:d2a84435-baa6-4e4f-ac80-4ef3a718da6c@d2a8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260413
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:0da447c0-58e3-4322-bfc3-e0d9c5953efa@0da4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260513
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 11 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:11 km Run
+UID:433d1721-7ded-44be-a07f-5bbec9d841a3@433d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260813
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:83267eef-8522-4059-acf7-cb98d8f68fd1@8326.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260319
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:e932c005-96c8-4dd3-8c32-c5948a864eb0@e932.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260718
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 29 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:29 km Run
+UID:cd1db598-3622-4173-89a4-fdbda76c50a3@cd1d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:08bee111-0717-4413-a9bc-5ce9f0e25ea8@08be.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260514
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:62821b16-2271-4a22-9e24-3c332ed5f60a@6282.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260506
+DESCRIPTION:Weekly Target: 50 km\nToday's Target: 9 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:9 km Run
+UID:2bb9d2a9-70a4-4abb-90b6-73bbfd4a33be@2bb9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260823
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:1ecc945b-887d-4b97-a519-a519683583d6@1ecc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260422
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:805d755d-0637-41d5-a44d-48e895dcd384@805d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:f0749e8c-29e3-4fb3-8702-38e35c388a0c@f074.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260409
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:39dfb826-f51d-44d8-a5b2-1234407e3fe5@39df.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260528
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:cd978596-36b8-4441-acd5-03c2ca971265@cd97.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260224
+DESCRIPTION:30-Min Threshold Time Trial\n\n• 10–15 min warm-up\n• 30 min hard effort\n• Record average pace of final 20 min\n\nUpdate paces:\nEffort 3 = Test pace\nEffort 2 = +15–20 sec/km\nEffort 1 = +35–45 sec/km
+SUMMARY:Monthly Pace Recalibration
+UID:e2675298-af69-44df-803d-de76f48cfc6d@e267.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260819
+DESCRIPTION:Weekly Target: 80 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:0bc72fa9-76dc-4e7b-b30a-472132d0b926@0bc7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260922
+DESCRIPTION:Weekly Target: 100 km\nToday's Target: 18 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:18 km Run
+UID:a004fb13-9f84-4ffb-8dab-9584b8ad76fb@a004.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260310
+DESCRIPTION:Weekly Target: 82 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:d5b40eec-cb91-437e-9177-28f8c0080683@d5b4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Weekly Target: 58 km\nToday's Target: 10 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:10 km Run
+UID:171656a5-eee3-42f9-b922-f55c2a5c147a@1716.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260728
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:4d87dc19-f811-4b83-b95a-6b2ecca91aed@4d87.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260722
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:ffa4bcd7-d06a-4f7d-9a04-db55e630d2f7@ffa4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260531
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:32b3184d-384b-41ce-b3a9-bf06aec3f88e@32b3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260313
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:9013324d-8e43-4c9c-89ae-44b5ad384d10@9013.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260918
+DESCRIPTION:Weekly Target: 100 km\nToday's Target: 18 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:18 km Run
+UID:559461bd-05bb-4d27-afae-7e24e8193f24@5594.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260403
+DESCRIPTION:Weekly Target: 92 km\nToday's Target: 17 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:17 km Run
+UID:323d2987-b07a-4eac-9878-daa08f985574@323d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260415
+DESCRIPTION:Weekly Target: 94 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:7a14c8e2-f71f-4403-95d8-fd05f8834fe6@7a14.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260419
+DESCRIPTION:Weekly Target: 94 km\nToday's Target: 15 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:15 km Run
+UID:b87f2a37-ae4e-48c4-b5dc-6fbdb986d614@b87f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260613
+DESCRIPTION:50 km Trail Ultra
+SUMMARY:RACE: UTMB Andorra 50K
+UID:e877db32-4972-4412-a5f9-f2cbf50e0791@e877.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260225
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 12 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:12 km Run
+UID:03562644-6851-43a4-bd75-17b076ce9a38@0356.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260712
+DESCRIPTION:Weekly Target: 85 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:01ce29d1-a5b6-4b06-b427-c468efd2f1b7@01ce.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260323
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:84b5eabf-7e83-48ba-891d-dc36125e250b@84b5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260507
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:33b35553-646f-427a-84c4-fb3484a750db@33b3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260914
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:0880eb0c-d1e7-4937-bbcc-94fa238b198a@0880.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260609
+DESCRIPTION:Weekly Target: 70 km\nToday's Target: 13 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:13 km Run
+UID:ca835a4b-2c7a-406d-8d3b-fcef59a303e2@ca83.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:Weekly Target: 90 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:2fa12639-bd68-40f6-8770-0af33cb160f4@2fa1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260325
+DESCRIPTION:Weekly Target: 88 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:cfcd0315-f279-4e62-86dc-2a7ae6a7b444@cfcd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260402
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:d2888709-e5eb-43a5-81cd-3049d9706938@d288.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260424
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:b6c13ad2-dfd4-43f8-9997-5851bc0c0e90@b6c1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260228
+DESCRIPTION:Weekly Target: 78 km\nToday's Target: 25 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:25 km Run
+UID:82d2c06c-ba9e-4af8-b8a9-972e0b0737ea@82d2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260610
+DESCRIPTION:Weekly Target: 45 km\nToday's Target: 8 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:8 km Run
+UID:a98fca34-e803-4678-993a-54501a8471ff@a98f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260224
+DESCRIPTION:Weekly Target: 75 km\nToday's Target: 14 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:14 km Run
+UID:b1366b64-34f2-4fc0-af94-055bcf8c21f1@b136.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260223
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:30b97bdd-feb2-4325-a7b9-a814b6cc2b26@30b9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260510
+DESCRIPTION:Weekly Target: 50 km\nToday's Target: 9 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:9 km Run
+UID:cc4d5d9d-c3ab-4477-a2fa-9459940b3282@cc4d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260820
+DESCRIPTION:Lower Body + Core:\n• Split squats\n• RDLs\n• Calf raises\n• Planks
+SUMMARY:Strength Training (20–30 min)
+UID:0702b85f-bcf8-4922-92b7-ea0f04a2d8b4@0702.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260617
+DESCRIPTION:Weekly Target: 60 km\nToday's Target: 10 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:10 km Run
+UID:c0f780a1-cc6f-4035-9c5d-59fbc3684672@c0f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:Weekly Target: 98 km\nToday's Target: 18 km\n\nEffort Guidance:\nEasy = 5:45/km\nSteady = 5:20/km\nThreshold = 5:00/km
+SUMMARY:18 km Run
+UID:922596e3-d121-4c39-a884-fab96398fc12@9225.org
+END:VEVENT
+END:VCALENDAR
