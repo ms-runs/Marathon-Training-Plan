@@ -1,0 +1,80 @@
+from ics import Calendar, Event
+from datetime import date, timedelta
+
+START_DATE = date(2026, 2, 18)
+END_DATE = date(2026, 12, 25)
+
+CINCY = date(2026, 5, 3)
+UTMB = date(2026, 6, 13)
+
+weekly_km_plan = [
+    75, 78, 82, 70,
+    84, 88, 92, 78,
+    94, 75, 58,
+    50, 70, 80, 85, 70, 45,
+    60, 70, 80, 85, 90, 75,
+    90, 92, 95, 80,
+    95, 96, 98, 100,
+    85, 75
+]
+
+normal_dist = {1:0.18, 2:0.16, 4:0.18, 5:0.32, 6:0.16}
+cutback_dist = {1:0.18, 2:0.18, 4:0.18, 5:0.28, 6:0.18}
+
+def get_distribution(km, prev_km):
+    return cutback_dist if km < prev_km else normal_dist
+
+def round_km(value):
+    return round(value)
+
+cal = Calendar()
+cal.extra.append("X-WR-CALNAME: Sub-3 Marathon Plan 2026")
+cal.extra.append("X-WR-TIMEZONE: UTC")
+cal.extra.append("REFRESH-INTERVAL;VALUE=DURATION:P1D")
+
+current = START_DATE
+week_index = 0
+prev_km = weekly_km_plan[0]
+
+while current <= END_DATE and week_index < len(weekly_km_plan):
+
+    week_km = weekly_km_plan[week_index]
+    distribution = get_distribution(week_km, prev_km)
+
+    for i in range(7):
+        day = current + timedelta(days=i)
+        weekday = day.weekday()
+
+        if weekday in distribution:
+            km = round_km(week_km * distribution[weekday])
+
+            e = Event()
+            e.name = f"{km} km Run"
+            e.begin = day
+            e.make_all_day()
+            e.description = f"Weekly target: {week_km} km\nToday's target: {km} km"
+
+            if day == CINCY:
+                e.name = "RACE: Flying Pig Marathon"
+                e.description = "42.2 km Goal Race"
+
+            if day == UTMB:
+                e.name = "RACE: UTMB Andorra 50K"
+                e.description = "50 km Trail Ultra"
+
+            cal.events.add(e)
+
+        if weekday in [0,3]:
+            e = Event()
+            e.name = "Strength Training"
+            e.begin = day
+            e.make_all_day()
+            e.description = "20–30 min lower body + core"
+            cal.events.add(e)
+
+    prev_km = week_km
+    current += timedelta(days=7)
+    week_index += 1
+
+with open("sub3_2026_live.ics", "w") as f:
+    f.writelines(cal)
