@@ -1605,17 +1605,17 @@ UID:13441e6b-d3a3-4f2c-918e-3830ccfd7218@1344.org
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261110@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:4 km easy
-DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+DESCRIPTION:6:00–6:31/km\n\nEasy aerobic running. Keep it conversational.
  \n\nPlanned by your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261111@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Run club (5.5 km easy)
@@ -1625,7 +1625,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:str-20261113@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Strength Training (20 min)
@@ -1635,17 +1635,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261114@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:4 km easy
-DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
- \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+DESCRIPTION:6:00–6:31/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nNote: Jet lag: easy\, and not first thing in the morning\n\nPlanned by
+  your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:str-20261116@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Strength Training (20 min)
@@ -1655,38 +1656,39 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261117@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:4 km easy
-DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
- \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+DESCRIPTION:6:00–6:31/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nNote: Jet lag: easy\, and not first thing in the morning\n\nPlanned by
+  your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261118@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:6.5 km easy
-DESCRIPTION:6:00–6:25/km\n\nRun club is in Cincinnati\, so an easy run in
+DESCRIPTION:6:00–6:31/km\n\nRun club is in Cincinnati\, so an easy run in
  stead.\n\nNote: Away from run club\n\nPlanned by your Daily Desk coach\, 2
  026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261119@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:4 km easy + strides
-DESCRIPTION:6:00–6:25/km\n\nEasy\, then 6 × 20 s relaxed strides with fu
+DESCRIPTION:6:00–6:31/km\n\nEasy\, then 6 × 20 s relaxed strides with fu
  ll walk-back recovery.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:str-20261120@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Strength Training (20 min)
@@ -1696,27 +1698,27 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261121@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:4 km easy
-DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+DESCRIPTION:6:00–6:31/km\n\nEasy aerobic running. Keep it conversational.
  \n\nPlanned by your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261122@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:9.5 km long run
-DESCRIPTION:6:00–6:25/km\n\nAerobic endurance. Relaxed\, conversational t
+DESCRIPTION:6:00–6:31/km\n\nAerobic endurance. Relaxed\, conversational t
  he whole way.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:str-20261123@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Strength Training (20 min)
@@ -1726,37 +1728,40 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261124@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:5 km easy
-DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
- \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+DESCRIPTION:6:00–6:31/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nNote: Jet lag: easy\, and not first thing in the morning\n\nPlanned by
+  your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261125@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Run club (7 km easy)
 DESCRIPTION:Pacing the group\n\nYour fixed run. Counts as easy when you're 
- pacing.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+ pacing.\n\nNote: Jet lag: easy\, and not first thing in the morning\n\nPla
+ nned by your Daily Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261126@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:5 km easy + strides
-DESCRIPTION:6:00–6:25/km\n\nEasy\, then 6 × 20 s relaxed strides with fu
- ll walk-back recovery.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+SUMMARY:5 km easy
+DESCRIPTION:6:00–6:31/km\n\nEasy aerobic running while your body clock ca
+ tches up.\n\nNote: Jet lag after flying west\n\nPlanned by your Daily Desk
+  coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:str-20261127@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Strength Training (20 min)
@@ -1766,27 +1771,30 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261128@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:5 km easy
-DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
- \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+SUMMARY:5K time trial
+DESCRIPTION:Best even effort\n\n2 km easy\, 4 strides\, then 5 km as fast a
+ s you can hold evenly\, then 1.5 km easy. Enter the time on the Coach tab:
+  it resets your paces and the sub-1:30 forecast.\n\nPlanned by your Daily 
+ Desk coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-20261129@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:11 km long run
-DESCRIPTION:6:00–6:25/km\n\nAerobic endurance. Relaxed\, conversational t
- he whole way.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+SUMMARY:8.5 km long run (easy)
+DESCRIPTION:6:00–6:31/km\n\nAll easy: your legs are carrying yesterday's 
+ time trial.\n\nNote: Day after the time trial\n\nPlanned by your Daily Des
+ k coach\, 2026-11-10.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:race-20270717@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20270717
 DTEND;VALUE=DATE:20270718
 SUMMARY:RACE: UTMB Eiger E16
@@ -1795,7 +1803,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:race-20270919@ms-runs
-DTSTAMP:20261110T122719Z
+DTSTAMP:20261110T130147Z
 DTSTART;VALUE=DATE:20270919
 DTEND;VALUE=DATE:20270920
 SUMMARY:RACE: Copenhagen Half Marathon
