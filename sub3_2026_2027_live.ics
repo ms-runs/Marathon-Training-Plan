@@ -2,12 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261202
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:a7783b40-6237-4e73-906e-385f0cace7d8@a778.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260604
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
@@ -20,22 +14,10 @@ SUMMARY:13 km Steady Run
 UID:a6dc8878-06cb-489c-8a2e-aa3f9283865a@a6dc.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270506
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:f20465e7-9f37-495a-a1c5-000477e9984b@f204.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:dc8a2dea-90d9-47d5-ad9e-0f3e62d7964c@dc8a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270920
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:82b08937-e98e-4bcb-9103-eadf49988091@82b0.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260622
@@ -50,24 +32,6 @@ SUMMARY:13 km Steady Run
 UID:df6b28cb-c2d5-4aae-b1b5-67016bec4710@df6b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270624
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:6ff603fe-d798-4c00-bde8-1a8d29d2cf31@6ff6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271005
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:d2a6bba8-475c-46ae-bb6a-dbda2f5613a8@d2a6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270522
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:ce4a2314-c738-4186-aad8-2d39b8324104@ce4a.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260728
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
@@ -80,82 +44,10 @@ SUMMARY:29 km Long Progressive Run
 UID:893d8683-75ba-4560-8b36-94cd112b9eb0@893d.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261113
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:1877e3c1-8918-4a80-b054-b532fbc08d6e@1877.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261211
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:169889ff-36cd-4482-8a0f-022078fdfe94@1698.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270713
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:7ed70d3f-80d3-40e7-ba6d-881e765207d8@7ed7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271127
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:edd70008-898b-45b9-9256-178cc6870751@edd7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261226
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:6c88f850-de94-4294-8923-f983c3e6750a@6c88.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270917
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:217ddb14-8aff-46d8-beb9-b3c67fc3e514@217d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270208
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:ac7a18fd-5bb4-4071-8593-6655506d065d@ac7a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270521
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:d90546dc-7194-471e-9e55-5085af421453@d905.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260319
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:7283f947-ef8a-49b0-a180-16a85c3fd440@7283.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270428
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:741d600e-8078-4cd6-8396-f2cfbc1a3624@741d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261127
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:74bbdcea-8a44-4d70-8dc2-509369feb026@74bb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270317
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:8649e08c-7a30-4c3f-bc23-3dec9aa39fdf@8649.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271210
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:8a8181ad-d488-4dba-9c3b-d657cbf74aab@8a81.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260224
@@ -170,52 +62,10 @@ SUMMARY:13 km Threshold Session
 UID:ea4c2f77-ed17-4db2-9495-79ad836eb424@ea4c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270729
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:9548511b-47f1-42a9-ab35-f45d3c940429@9548.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270131
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:84a61490-40aa-492a-a93f-e483afc60781@84a6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270216
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:de51e475-773e-4198-ac55-904bd720e404@de51.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270427
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:607c53ed-8b20-4780-b77b-317ac7e44d51@607c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271123
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:9d222a6f-6c5b-431e-a7cc-ed238584fe49@9d22.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260409
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:9843e8fe-03ed-4db1-8860-02ab0754e0cd@9843.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270128
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:08534136-9ccf-465d-989b-1911b52bc300@0853.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270727
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:941d8cf2-5052-4667-945d-102abf95016f@941d.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261015
@@ -224,130 +74,16 @@ SUMMARY:Strength Training (20–30 min)
 UID:1791d6c2-0881-4f1e-aa51-dda5d9e64819@1791.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261111
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:d884d1f0-2c9f-4036-9c6e-41adbef31025@d884.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271016
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:91822a20-08c6-428b-b7ea-1f1af5d85449@9182.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270410
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:23c5d013-c5dc-4d64-84a0-f0509bf9c7e6@23c5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270611
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:78159aa3-976d-48bd-8d6b-ce91ded5cd04@7815.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261222
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:dd89c750-44de-45e5-bcd5-64631df8c368@dd89.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270224
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:f790eb2a-aa43-44d0-9831-ecf3cb7e9ddf@f790.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271122
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:358bdbe9-c7ac-4305-a6db-c7811f5cc8e3@358b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270324
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:7f7224a9-a799-40a0-afdf-461ddec6dc5c@7f72.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260219
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:eaf21675-4bca-4092-aea1-4a8927389ce9@eaf2.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261217
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:7ae8cddb-6357-4dfd-972c-8cb3c1a94258@7ae8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270417
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:4a48d637-c651-4220-8f4a-4e304b6feb6e@4a48.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270924
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:77449ff7-de15-4530-8e2f-170516390de6@7744.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271104
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:f680909d-6009-4871-88bc-51e6a7d28b68@f680.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260724
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:92b7d830-c263-4b8a-bed8-3c65753e0a98@92b7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271012
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:71c1f326-2ef9-4699-99f2-966cd8f1bdb4@71c1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270923
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:266bfa95-fbf9-400e-8f11-64b9a4b399ba@266b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271211
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:c73f4766-e281-4002-9902-4bc0602d8eae@c73f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261129
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:0ad0fe68-e359-4877-a472-1cc109654058@0ad0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270628
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:e838de66-2cbc-4bd9-92a0-c8cc5b82e0ac@e838.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271010
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:97b3b2d6-dab3-4311-9112-5e5a4c2f6d0e@97b3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270929
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:463430b8-839f-4930-bd6a-046f758cf01b@4634.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260322
@@ -362,46 +98,10 @@ SUMMARY:15 km Recovery Run
 UID:743fc060-8d3e-496a-8963-d67318b89b17@743f.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270702
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:6d7f6029-6890-4e62-9a37-84bb2453b5f0@6d7f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271229
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:f8d3e3ab-86f8-4991-93ca-38f3b4045cfa@f8d3.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260702
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:4e084842-85b4-4787-8621-937d25ee0178@4e08.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270408
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:657a6a32-5637-47d9-818e-4f38e46193e5@657a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270226
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:cf03d21a-68e0-47fc-a52c-191dcb948723@cf03.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270213
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:3eac9701-1ae1-4fb4-aae5-1e6a0949946b@3eac.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270422
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:fa9c60ef-dc2c-4f4e-b3cd-8af54615b1d1@fa9c.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260830
@@ -422,28 +122,10 @@ SUMMARY:13 km Threshold Session
 UID:4942540f-d62b-43b2-b03c-1d2394b4b2e1@4942.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271208
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:1ba6c830-00dd-41a0-b937-73dc6cbdf91b@1ba6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271224
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:cf1eb6b3-f3fc-42be-aaa4-9e9747fca12e@cf1e.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260305
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:a21de08c-5011-4d4f-8501-6c1957161c1f@a21d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270706
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:678b9764-e998-43d8-b1fb-1fc2cdcb5616@678b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260914
@@ -458,12 +140,6 @@ SUMMARY:Strength Training (20–30 min)
 UID:e17b8156-79b1-4c94-bfa1-b081fc18b3a6@e17b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270722
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:2d008caa-7ade-48ca-8374-20ecde7d50d4@2d00.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260819
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
@@ -476,46 +152,10 @@ SUMMARY:29 km Long Progressive Run
 UID:ad37187b-4531-4fae-b75f-ac75f0b8247e@ad37.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270129
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:08d37e15-2fff-4754-a154-cdb305e19188@08d3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270529
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:bb8ee080-109f-4a0a-8ccf-cb9dc9243529@bb8e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270907
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:036d67d1-7955-4d68-a84f-2e3dacb13454@036d.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260628
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:b5a79686-d2f5-41e1-8c39-a7b57100ff8f@b5a7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261120
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:8c898ad8-0691-442d-8d52-14634045fe2d@8c89.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270330
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:8ca45c50-852c-4201-ad45-1b06fe116ccc@8ca4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271130
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:d5069e54-0e0a-4b39-ab8b-42e04dab06a0@d506.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260311
@@ -536,28 +176,10 @@ SUMMARY:15 km Recovery Run
 UID:67b7311c-ba50-42d3-ab99-41743840ce88@67b7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270518
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:44236db9-dd92-48c2-9b1a-a9ca37060cf6@4423.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270612
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:0024fe6c-785f-4d27-91eb-c5f66837e90d@0024.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260507
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:146622be-70ec-4580-917f-6809d3fcbc75@1466.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270207
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:bd98442c-dec9-44a3-813f-134fe9a54ae0@bd98.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260611
@@ -572,30 +194,6 @@ SUMMARY:29 km Long Progressive Run
 UID:807b011f-6553-4c31-8182-e7222d47bf3a@807b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271004
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:f3b4b912-8443-4cc1-a881-61310626ec1e@f3b4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261115
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:e8726826-6786-40e5-97e1-7a14868653fe@e872.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270916
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:5c38b71b-d8b9-4887-b825-0e745544947c@5c38.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270618
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:b28a23c6-05cf-48b5-937b-a298aafc273e@b28a.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260923
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
@@ -606,24 +204,6 @@ DTSTART;VALUE=DATE:20260411
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:ba273987-726f-4e3b-8f7c-c180c836b4da@ba27.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270116
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:c25d108b-2f3c-456e-97b0-24c3705029e5@c25d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270704
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:31909f8f-5cb4-4a72-a8d7-aac8ed7d0af9@3190.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261204
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:e1ff0248-1cd6-42b3-adfa-8038ab6be2a1@e1ff.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260403
@@ -644,28 +224,10 @@ SUMMARY:13 km Threshold Session
 UID:9471acd8-e7b2-483c-b40b-f31655aef4fa@9471.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270101
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:445873ac-5d2e-44be-9f86-a44b3890ffc7@4458.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270302
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:235d393c-de3e-4460-bf98-d814fe395a07@235d.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260927
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:f90eae96-58f0-451a-8a26-488e197e603a@f90e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270125
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:29ea8f97-6e4e-439d-954c-91d87838d445@29ea.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260417
@@ -674,28 +236,10 @@ SUMMARY:13 km Steady Run
 UID:3bf898fb-f98a-4303-bb80-6e6e0286231e@3bf8.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270625
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:f3b6284f-90d5-4d17-8599-d6a04a5d1be3@f3b6.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260222
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:d2e2366f-e6ef-4b37-a60a-3b367312c2da@d2e2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270103
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:687ae86c-ae9f-4066-b155-4d29821118b1@687a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270221
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:c0df0cf1-4127-423d-a4a9-4e7f014aa95c@c0df.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260707
@@ -704,64 +248,10 @@ SUMMARY:13 km Threshold Session
 UID:8a6b3e48-5faa-48b2-9814-9054b9f9a08a@8a6b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270118
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:a69d9b77-66af-44d6-bdea-5e26953dc81f@a69d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271209
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:041f5a23-4ec8-4ca3-8ed5-ef17fe077a35@041f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261201
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:0ea9f82f-a5e7-45ef-aa1f-3c4eff1e0cd5@0ea9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270514
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:f506acad-971f-4565-ab5f-5949f95fadf4@f506.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260223
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:9ff51b98-67b4-4b94-849a-877f65b6347c@9ff5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270430
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:d3afa84e-4216-4593-a6a5-44ef9abcf818@d3af.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261126
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:1f866693-3a42-4042-8879-7cc524b03a57@1f86.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270708
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:2361e0c2-8747-427b-89b9-d7c19f5b00c9@2361.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271103
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:567ff790-45cb-4a60-b82b-58ea638606fc@567f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271205
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:ed6a0efd-2bac-474b-9cf8-3b1cfcc96429@ed6a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260828
@@ -776,12 +266,6 @@ SUMMARY:29 km Long Progressive Run
 UID:515cc365-b80b-403c-81c7-8728ec308b23@515c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271230
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:0a4e33c9-7831-46b3-9436-1d4006bbc341@0a4e.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260420
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
@@ -792,12 +276,6 @@ DTSTART;VALUE=DATE:20260228
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:a675aa3f-2c26-4905-95f1-33cdc327e469@a675.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270605
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:b3afdd6f-44f2-442f-bb01-180dea2f79bc@b3af.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260910
@@ -818,36 +296,6 @@ SUMMARY:13 km Steady Run
 UID:55fc5fe5-bfc1-413e-94a2-5cf112863098@55fc.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270528
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:ad96ef68-83c4-4a36-903f-8be46f1ac037@ad96.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271201
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:c52f3e67-ab10-45cf-b6dc-c12f868b76aa@c52f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270817
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:b8fccced-3b77-4669-9bc7-6e7700ff1771@b8fc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270711
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:69aeb88c-72f9-42a1-a678-d718927939d5@69ae.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271202
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:42ddc7e6-87a2-4609-8bf5-0b669f9c2f84@42dd.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260310
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
@@ -858,18 +306,6 @@ DTSTART;VALUE=DATE:20261102
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:dee30a20-937d-4a82-b075-a13684c2c4c5@dee3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270327
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:f068349d-a1cf-401e-ba98-0c38b552b321@f068.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270928
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:6d010111-9209-4a1b-94ef-ae09f7792921@6d01.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260325
@@ -938,12 +374,6 @@ SUMMARY:RACE: UTMB Andorra 50K
 UID:a32d8c25-1d4a-4331-aef9-82e2745bea84@a32d.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270115
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:58ed9a70-86ef-4fb6-b069-0c07bfe880ba@58ed.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260815
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
@@ -954,36 +384,6 @@ DTSTART;VALUE=DATE:20261021
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:0e0d7d59-d1d0-42ef-a4b9-8ef22e97116a@0e0d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270114
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:21322abf-48ac-47a9-8e34-727e0edff5d1@2132.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270326
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:cedd5e15-a638-491d-804b-b75bc0388e33@cedd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270721
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:e6320fd8-793a-48e8-941f-7f00262a6316@e632.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261128
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:0f1fea3a-2a37-45bf-90d3-c6f9660f2552@0f1f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270609
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:09cc5dea-60e5-4869-b211-3eff4e113eb6@09cc.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260312
@@ -1010,40 +410,16 @@ SUMMARY:13 km Threshold Session
 UID:5158d72e-cda7-4dee-81b3-87b7e0d01191@5158.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270630
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:0d45543e-9a76-4746-94af-c62cf7ac37b4@0d45.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261206
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:122c6e7d-e8f8-459e-980a-312491324543@122c.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260721
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:25737b46-a91e-404e-8d3d-5b7442e8a54b@2573.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270319
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:7a4ed045-4276-4654-82f6-50dca81f6a38@7a4e.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261026
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:a0e08af1-4b9c-4549-ba3d-fb676a30dfc1@a0e0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271021
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:3975da93-4d81-491a-9d8e-8131a56e4ab8@3975.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260413
@@ -1058,18 +434,6 @@ SUMMARY:29 km Long Progressive Run
 UID:1d6bfea8-3f51-489d-8938-cff690834c7c@1d6b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270123
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:ba3a9b9e-8d34-415d-b497-7b9cb014f9d0@ba3a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270305
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:b594df26-5423-4d5b-a868-bdbc3aa110b9@b594.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260517
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
@@ -1080,24 +444,6 @@ DTSTART;VALUE=DATE:20260730
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:71e32fc6-2787-440c-ac61-00429c32a56d@71e3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270227
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:f40cada1-2d74-4323-a946-9fdb3c831d71@f40c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270420
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:fa6b2960-4d43-4b10-891b-d7f297aafb77@fa6b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271025
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:bc86e181-560b-4f39-b34d-b7321df37438@bc86.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260406
@@ -1112,36 +458,6 @@ SUMMARY:29 km Long Progressive Run
 UID:29f7cad7-588e-4ed9-894d-5b5e205eb766@29f7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270603
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:70455c7d-e980-49bf-a54c-970dddb50e9f@7045.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271111
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:906317d8-05af-4938-9e31-e0b0a8887de8@9063.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270423
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:888aed28-a659-44b3-a575-782e357ac95d@888a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270418
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:893bc06e-14f4-423f-92a5-8af2ed87b87a@893b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270329
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:368c28d6-6b29-40f6-9de8-b4d045a22c63@368c.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260225
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
@@ -1154,12 +470,6 @@ SUMMARY:15 km Recovery Run
 UID:6a42acc8-3e68-4343-ab8a-8163d1360a9e@6a42.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271108
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:996fc43e-fd3c-4f96-9455-a5171203ad93@996f.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260530
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
@@ -1170,24 +480,6 @@ DTSTART;VALUE=DATE:20260825
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:8cf6dea0-35fc-46f7-80aa-f499c6c16cbd@8cf6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271220
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:60452e2e-7238-4cd9-b32f-b64535fc04aa@6045.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271009
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:8a74b4bb-725c-4b8f-8021-dfe2f711332b@8a74.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270825
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:16def0aa-8ba2-4bd9-9e88-bd3b53041066@16de.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260605
@@ -1214,12 +506,6 @@ SUMMARY:15 km Aerobic Run
 UID:0583fc7f-3605-4d8e-8808-d8ae50909844@0583.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261112
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:0328c1b7-d9d1-4c0c-a5db-b6b1b491bb95@0328.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260317
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
@@ -1232,52 +518,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:8a6071e3-5209-46f1-a9e8-4870c1e831c5@8a60.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270619
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:89d42ac2-d3ee-4d26-ae2e-546c75991752@89d4.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260705
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:b28b3081-9eb8-4a06-8e33-b42d69605e00@b28b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261225
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:ca5e3528-b101-4757-95cb-fbe2c6b54991@ca5e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271221
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:d63dcc0b-7cd9-4463-be55-f7c5546a95f6@d63d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270217
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:c00a9a45-8ff0-4318-96fb-fd04c0e6cd41@c00a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270411
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:9b325b17-9c9d-426b-908a-6d05c13d8b67@9b32.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270908
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:4432ecc8-2364-4d97-8d37-79811f09b71c@4432.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270314
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:66d2b4b8-dbff-4497-a671-1b277c5ee1b3@66d2.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260626
@@ -1298,40 +542,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:2723e493-6220-4ed6-8ecf-3502e1a52b26@2723.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270814
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:ab8b9427-6bb5-4265-847f-adafca7066ed@ab8b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270620
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:9a0de1b4-d7fb-48aa-bf59-0e278e71f615@9a0d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271126
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:3661dc68-329d-4b37-b2ed-14f0f7d1ae45@3661.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260916
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:f65bca7b-4237-4fd2-8240-9f8076c1d0eb@f65b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271106
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:4cf603bd-3cad-4e9c-9de9-d2c0a90560f6@4cf6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271228
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:1c26868e-2e4e-46f2-b402-41ed49a30606@1c26.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260514
@@ -1352,40 +566,10 @@ SUMMARY:15 km Recovery Run
 UID:6ab0ab27-4eab-41cb-9039-b7c4dc17d9c9@6ab0.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271008
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:2880ff6a-2b86-43b9-a7d2-2b6b27ee772e@2880.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270109
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:97a3b04a-9ddb-4a4f-8e20-65ce5715656f@97a3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271110
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:aa414a35-6d71-45d0-9139-e34a92c50fce@aa41.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260504
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:b14a3b34-e970-4bb7-aeb8-56e99a85e46d@b14a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270405
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:01d8932c-667e-4e15-8b37-309d5f648450@01d8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261207
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:a9923622-b4a3-42a9-9c74-2f67d5e88226@a992.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260227
@@ -1412,46 +596,10 @@ SUMMARY:13 km Threshold Session
 UID:ab4b0119-a688-44b9-9707-d16011371787@ab4b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271125
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:d9d32638-9571-44d5-8d8b-cf604bc1090e@d9d3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270318
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:397f0305-0679-468e-82c9-ecbefc02ac40@397f.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260525
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:6400928d-5648-4f7a-9f51-d1b2b3b2af8c@6400.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270904
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:0d6934ae-bc66-4a34-a677-4c53d0f03e10@0d69.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271203
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:0e1cb8ce-1e5c-4cf9-b126-a61460094f1c@0e1c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270331
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:162ae8c0-2db9-4684-bcd7-3898d48c54cb@162a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270922
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:4d916dcf-bab8-4aa6-87ca-4e8be0a48cf1@4d91.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260912
@@ -1466,28 +614,10 @@ SUMMARY:13 km Steady Run
 UID:515e20fc-660f-4cd2-a852-a8a88989f70e@515e.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271002
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:7516c122-af7e-4f7e-83ff-6ac0ed995bb9@7516.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270124
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:1cd2a720-0dcd-4c38-9b48-b66aa07a80f1@1cd2.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261103
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:c0540dbc-d9fe-479d-a3b7-a9944e76e396@c054.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271007
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:123eaeb5-9125-4ce3-a02f-3962a31559ff@123e.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260620
@@ -1502,18 +632,6 @@ SUMMARY:Strength Training (20–30 min)
 UID:5fc746bb-82ed-4e3c-9ea1-db71f48a0edc@5fc7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270416
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:b6b94418-b6eb-4306-82de-3a0392a8922b@b6b9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261118
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:f4456534-5b7e-4343-abc9-8975e305ad09@f445.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260615
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
@@ -1524,24 +642,6 @@ DTSTART;VALUE=DATE:20260421
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:697ddcf4-6075-4e40-ac8d-998a66aecf97@697d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270201
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:d00bab34-8c10-4f33-b055-59ba1c30812d@d00b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270627
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:c166dec0-af78-43e0-853e-3d3dcedab88e@c166.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271222
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:ac965354-1562-4e85-9d66-b7ac492ce039@ac96.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260607
@@ -1562,30 +662,6 @@ SUMMARY:15 km Recovery Run
 UID:9b75afce-5999-4ef2-9ef3-f96be9cda2ed@9b75.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261231
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:651e7a7d-a3ef-4df5-88a4-6947d719f01c@651e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271204
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:4bcd504a-b1ea-4ba3-81d1-0f87766e1e4e@4bcd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270902
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:b0ff45bb-55cb-4828-8443-aefbd7fc755c@b0ff.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261223
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:b43465aa-c6da-438c-b175-adf6dd9c2acf@b434.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260924
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
@@ -1602,12 +678,6 @@ DTSTART;VALUE=DATE:20261028
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:e4d8917b-44be-4f0e-912d-e546acb54f02@e4d8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271214
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:444046a8-1275-4403-b271-02f8abba8b0b@4440.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260625
@@ -1628,34 +698,10 @@ SUMMARY:15 km Recovery Run
 UID:58e1ee4a-54f6-4d04-bc96-8901ba29df9f@58e1.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261125
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:233c1c3b-8a4e-4e6a-8759-3c65c4fc11f9@233c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271015
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:560c4a49-7af2-49f0-bbac-9eb62d92aadd@560c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271226
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:8f4bc9d6-840c-4ab0-b802-5c438a097a8c@8f4b.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260805
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:e62685f5-2ba1-4431-98ed-5a1ce2f9ec9c@e626.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271216
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:e3c07a6c-f74b-451e-add8-c94068a2b40d@e3c0.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260510
@@ -1670,12 +716,6 @@ SUMMARY:13 km Steady Run
 UID:8d67c0ce-f219-4c3e-aa58-16e786848abd@8d67.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270912
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:ac79a84c-c725-42d7-98a3-2a1a2b7a16e0@ac79.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260407
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
@@ -1688,58 +728,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:10e59538-756a-4f85-9345-fdf777f5820e@10e5.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270513
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:06c3029b-babb-49b6-ab09-e168f616d1bc@06c3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270918
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:68a6d84d-7e0e-43d4-ac4c-fb35293e9e39@68a6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261116
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:1af6e7cc-b773-44c4-9bf0-e63d652342de@1af6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270403
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:29f7859e-84a3-4c80-a321-65fde8285890@29f7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270214
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:98490935-759b-42b9-8052-fab020b1bfba@9849.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260516
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:75b1e34a-73f3-4e8f-99ce-7e6201afe3a0@75b1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270526
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:b7f0484b-1f1b-486b-8c71-d7345e9e794d@b7f0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270903
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:c464abff-9731-4d30-967f-184174f4001d@c464.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271120
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:a744e190-0ac5-4596-b35e-f091efbbffbd@a744.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260326
@@ -1748,112 +740,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:97ac0837-d658-4b24-bd1d-0cafd06c0748@97ac.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261123
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:c67b8c2c-b9c1-4229-8440-861672965fc0@c67b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261221
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:835621d1-5d69-4838-a7a6-7fb718a72198@8356.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270914
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:d4ddb9a8-0254-4215-accd-0d6fd43d9a4c@d4dd.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260306
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:f0b3eaaa-95b3-469d-a479-733f55788e4e@f0b3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270119
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:cf6e9bd8-deda-4ba3-9ff6-dd4be0d7e498@cf6e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270829
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:8f19f413-2874-4e83-b693-c289f2e2c6db@8f19.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271019
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:deccb2bc-5f02-474d-911b-cac471a2669b@decc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270120
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:fd2dc2f4-bd5d-462c-8860-5e81d184c15b@fd2d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261205
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:9b2fb3ef-ae2d-479c-a5cb-37d2d27e7b6c@9b2f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270301
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:56cdeb42-ef50-4043-a2ad-e34be5035305@56cd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270310
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:f77a558b-26c6-43ac-95ea-9e74d0ab5a8e@f77a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270228
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:356ede86-3992-4d21-84dc-efd63e8bfe49@356e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270905
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:4838b15f-7b4d-4852-98fd-0e473bce0fad@4838.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270901
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:5f729e78-6fb6-4f8a-8127-068ff0053e18@5f72.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270813
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:67b060ff-2ecd-47c6-8609-c85df221b312@67b0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270821
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:e8444e73-02ed-4829-af42-4581b53fa253@e844.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270730
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:62eb0e6d-e280-4d5e-b262-46713297a4b5@62eb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270504
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:23acd5f8-4741-49f6-b777-3774402f795e@23ac.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261011
@@ -1862,40 +752,16 @@ SUMMARY:15 km Recovery Run
 UID:b4f9ae94-81f0-4ba7-b869-747c3f325d90@b4f9.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270505
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:dee10efd-700d-4e96-96d2-446429dfca60@dee1.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260903
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:d9d05ae7-5752-4179-afce-97072870d753@d9d0.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271006
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:54cb1fd9-0802-4854-9cc2-ace8ba51e814@54cb.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260404
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:51585024-db40-47cd-9a4d-1a3d038b00d9@5158.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270311
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:41ae607a-ba71-4e4a-bcd9-4ee8b80b1842@41ae.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271023
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:966e994a-33a8-4e6c-9512-c7a214276291@966e.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260513
@@ -1910,18 +776,6 @@ SUMMARY:13 km Steady Run
 UID:b9bf727c-17e8-471b-ae8b-cd4f28858843@b9bf.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270610
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:20bb4896-3c50-4e64-b7a9-6aef12afa73e@20bb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270728
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:8bc71235-b4d3-4cd1-9d3c-5950ddaf92f4@8bc7.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261020
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
@@ -1934,46 +788,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:31655fd2-891b-4c4a-9ba9-e78c63388a12@3165.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270306
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:ee9bc832-e468-4fdf-85b5-a6bb43a70fdd@ee9b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270715
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:61514f94-ec8d-49fb-92cc-539d4314ea3a@6151.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260913
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:fba16afd-477c-4ab3-bc39-e65049c88a7b@fba1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270731
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:2cb1676a-3ec5-4bcc-a620-d499173c7147@2cb1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271128
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:c04f689e-047a-4ed3-9ea2-7eb36de03266@c04f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271119
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:dd5f2b62-ba5d-48f0-bc38-8785f1b7835d@dd5f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270626
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:cf5c0ed1-2a34-4acf-b373-1017e6fd7fc8@cf5c.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261016
@@ -1994,34 +812,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:d679620f-6905-4ffa-b7fe-ff6b9bfb6711@d679.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271231
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:f02a77ca-b55a-40e0-b8e0-497e9e2ec94d@f02a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270508
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:a1608c42-a1c0-495b-9420-c39d45e8415f@a160.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260419
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:4cc76c4b-0658-4be0-8dac-4813a8559bf5@4cc7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270419
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:7e976483-a165-4325-beee-2a0afbbfae31@7e97.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270211
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:1d9a92e3-f9b5-45c4-ba51-fe1481eaf340@1d9a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261001
@@ -2034,30 +828,6 @@ DTSTART;VALUE=DATE:20261018
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:e3cefca9-462f-4a11-a5e1-a26e0a4e7455@e3ce.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270509
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:33cd7fc5-3d80-41e9-8043-84dd1d9c6e33@33cd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271013
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:21794a63-11ac-4e1c-aa3a-523f08722dad@2179.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270424
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:45c5da2e-698b-4e6b-a02e-11420f1c8fa9@45c5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270312
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:5fb8006b-0f1d-44ef-9186-6def126c88d4@5fb8.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
@@ -2084,22 +854,10 @@ SUMMARY:29 km Long Progressive Run
 UID:17d318d8-2a69-4146-8643-2f6b3bc7f0af@17d3.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271031
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:904b4fc2-a06b-4a6b-aaeb-82473da941c9@904b.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260623
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:f831fb6a-16b8-450a-a81c-873b201ee168@f831.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270530
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:5a527216-d83d-4676-80b7-80ee48881bf9@5a52.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261010
@@ -2120,34 +878,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:95a8be1f-6718-42a8-80f3-a1d591f5b3f6@95a8.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270107
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:30454644-9ebd-475f-8592-25219fa1394a@3045.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270406
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:d72447a4-60c7-46c8-9222-2eafca95134d@d724.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270614
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:2669ed50-78da-415e-96e2-7a2ed634da53@2669.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260423
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:141df383-6951-4067-9bdc-cd0c61ece7e1@141d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270803
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:38c50dbc-3cef-41d2-be2f-18cbda45999a@38c5.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260902
@@ -2156,58 +890,16 @@ SUMMARY:15 km Aerobic Run
 UID:b70fd6a8-aeb8-49d6-8d09-f6572776d39d@b70f.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270316
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:281a4bf6-6d1b-45bf-a244-57b33f5327ca@281a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270616
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:3e9e142b-f317-4d85-8a81-0fee20cf5553@3e9e.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260630
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:60ff1efe-4077-4614-93c4-6cb64b9e4e85@60ff.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270215
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:d6eaea78-81a9-44be-bdf0-8e2961ee46f5@d6ea.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260412
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:193361fb-f2ef-4ec0-9054-8fe152df4c49@1933.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270222
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:10c15516-06ec-4397-b1a7-eae594c8de89@10c1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270209
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:2b29eacc-f053-4be0-ae10-72658f26fe72@2b29.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261208
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:2ee2138e-dd2b-40cd-a045-6e652304cc89@2ee2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270409
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:ab5ff842-dd61-4907-977f-7193ce8f6ede@ab5f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260713
@@ -2222,40 +914,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:35c4fa6d-8b67-4e32-a612-090eae149f49@35c4.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270812
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:e437c58b-5e25-41f3-84a2-c06e37959558@e437.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260410
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:691cab6a-656a-415a-8220-b51a8be14ed3@691c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270520
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:e8e5488d-1ff9-4375-a70f-be3920826260@e8e5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270225
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:3ada0960-e802-4731-82e4-d5e7fe710479@3ada.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270105
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:41dd3352-f791-4e26-95c0-45d0829c9c9a@41dd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271101
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:12931c99-c6a6-472e-8477-7956605fdfce@1293.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
@@ -2264,46 +926,16 @@ SUMMARY:15 km Recovery Run
 UID:459e04c3-29fc-4112-ac1f-32f3187c7814@459e.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271029
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:2e8c9d0d-28ec-4122-879e-3c27ee67ac80@2e8c.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261013
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:3e90b6a0-09c5-48d8-b218-6719bb18702c@3e90.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270801
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:cc31c4ae-e7ef-44d3-91ee-3a75bcbda0d5@cc31.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270321
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:06b1cac8-8d07-4918-bad6-cf6638633478@06b1.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260508
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:de6a18aa-cc7f-49f6-88cd-bf19996d74f0@de6a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271113
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:785b9b7d-ab43-495e-9a64-df264acfcaf3@785b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270909
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:5108c583-dc55-43a3-a77a-281492ef060a@5108.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260602
@@ -2324,46 +956,10 @@ SUMMARY:15 km Recovery Run
 UID:65f7d95e-6062-4e48-b6fd-4ed1204df3ba@65f7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261121
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:5ccf24e5-e1da-4cd8-893d-bbf71352ab6a@5ccf.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270308
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:28dc3c9b-ce93-4bde-beff-b88fff65635d@28dc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271129
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:45c7b8dd-bf16-4adb-80d5-d9b7a8d7e6c4@45c7.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260802
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:03b42e9c-da5c-48f3-9a4d-b075f2d5cc27@03b4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270117
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:a0aaeece-04f2-43de-823c-3d011aa0dda8@a0aa.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271212
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:a31d4860-ac7a-42d9-965a-bed33c25356f@a31d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271114
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:4119d9d3-5a55-45bc-a0ad-ebd997d62f9a@4119.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260324
@@ -2384,64 +980,16 @@ SUMMARY:15 km Recovery Run
 UID:c721ab28-a0dd-45a0-94f7-836a60a318f3@c721.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261130
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:ac80a892-2b80-4e5c-a83b-7fadced8aba4@ac80.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270206
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:8ac40257-ab19-4aa2-b43b-fc4540e9a6e7@8ac4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270517
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:605689f4-19db-495b-adb9-6bd49b4eaf39@6056.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270622
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:998928f7-1b4c-4d64-bc57-ff0671d48bfe@9989.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270823
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:86878152-4d13-4ddd-8168-a28b21b93248@8687.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271213
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:d0ce89a4-dda8-4d60-9b55-f8fa682b3e98@d0ce.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260323
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:f95c89f4-af25-4cb9-bc98-761fca2f7f90@f95c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270413
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:10233cb0-382e-4f9a-870b-4f6e1a5b1b19@1023.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260718
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:7bffe8ef-169b-4f4e-b0fd-af38032a7e7f@7bff.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270220
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:758fdb70-3bdc-4328-9c99-174630ef40db@758f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260930
@@ -2462,22 +1010,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:7f088ec5-dea3-4b0c-b7a3-8bba98dd5a54@7f08.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270811
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:aea39d1d-5d0a-4339-ba11-5850b73571a9@aea3.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260218
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:f95fc24d-b43f-44f6-b4b1-f758bf0e9da4@f95f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271112
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:350e8ec1-6c5a-4f64-ab36-bc86ff111c44@350e.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260327
@@ -2498,18 +1034,6 @@ SUMMARY:15 km Aerobic Run
 UID:a3327e35-1c80-4c63-9fb7-b1cf9ed0a963@a332.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270613
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:765df018-6db4-4919-96ad-08a235880486@765d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270830
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:daa56cac-d8a6-4373-8398-07f9fd439a36@daa5.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260226
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
@@ -2522,58 +1046,16 @@ SUMMARY:29 km Long Progressive Run
 UID:9b3b29c0-87d2-47de-be65-a02020194a4e@9b3b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270629
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:2ca78877-adf9-4689-a76a-81f93925bd92@2ca7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270104
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:3b19c155-f9b6-4bd1-ad7d-c0e99c9c4884@3b19.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270615
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:24cbc5bc-9475-4655-b2bb-b0677b825861@24cb.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260511
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:4e6025f4-42e8-4d8f-b60b-20695c359bb3@4e60.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261114
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:7563cc75-dc47-41fe-9b88-f9fe1b9046cb@7563.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270617
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:4bb48eb0-7ec6-412d-8580-741fadb2e269@4bb4.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260722
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:538b5cae-87b9-42a9-b4a1-a36d43c15edc@538b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270723
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:94642e4c-b45c-4390-bbc8-89e4120d8fd6@9464.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261213
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:43301849-55b5-40ed-83e7-de13f9678622@4330.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260809
@@ -2600,64 +1082,16 @@ SUMMARY:29 km Long Progressive Run
 UID:83755416-e788-4e5a-880e-4b64d55549f5@8375.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271218
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:85533f84-3b59-4188-9f21-263e8d2f7b1c@8553.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270608
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:c4a2299b-9f05-4682-9ea1-c0f177040199@c4a2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271026
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:dc8b4dcf-79de-4f00-ac9b-bc7b5f878aca@dc8b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270421
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:3fbfb04c-4d14-4e39-b544-e7c9c9ed1cf6@3fbf.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260908
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:a5ded5eb-a10c-4b50-83ea-6cddf12ed13f@a5de.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270607
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:ac683cf4-78f4-4155-8622-11351663476a@ac68.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260909
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:9ee02f39-1a99-4441-a123-180fd090e50b@9ee0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270712
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:842f9bac-0050-4c8d-813c-507719753f73@842f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270516
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:dcf6b650-88c9-441d-bba0-d1f15b203393@dcf6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270719
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:5c49790e-7a50-4f40-a5d9-d665d7ce7d27@5c49.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260812
@@ -2672,160 +1106,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:f9aca63f-427e-4f63-8601-5a1042e2e6bd@f9ac.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270913
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:d64b0a36-c039-486a-9d8f-ff186dcd7898@d64b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261227
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:9f80ee01-5634-4a95-895f-27800bc7cf74@9f80.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270313
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:4cdec184-1763-41c5-9950-a06be17545ab@4cde.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270315
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:ac21e78f-a48c-4f7a-b442-07b1afc056cb@ac21.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261218
-DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
-SUMMARY:13 km Steady Run
-UID:a0f757b3-5e9c-4d9b-8d8a-3e79319a9648@a0f7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270726
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:b038e398-2ab2-4a7d-9e4f-fb5b1854aa2a@b038.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271217
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:0f76512d-f460-4522-a6c8-9597e4afd9bc@0f76.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261031
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:2b4b00bc-4dfb-45ab-90a8-85c8cc13351a@2b4b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270112
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:c4229715-313b-4bad-9e3a-2e63df928e83@c422.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270602
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:a2ac880d-d008-433b-9edf-89d3986218dd@a2ac.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271124
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:3229c782-4ccf-491c-bcc4-83e7fcfb3af8@3229.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270527
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:b1558c57-eb1b-407e-a6ed-1d00b4caf198@b155.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271030
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:c602b744-b329-4f8b-9bc5-a78d410a6a85@c602.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271215
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:bd568188-9032-49ab-a9c6-96104b3cf8b3@bd56.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271223
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:f4018eab-1784-4022-a714-6334a92bfa42@f401.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270130
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:f81d6c20-4f1d-4df7-a18d-d54e212460c6@f81d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270322
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:cc8a93fb-ef3d-478f-9e20-503448b9bf5b@cc8a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261203
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:6065edfe-fa85-4b1f-a5d9-bcbdf43f2f71@6065.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261209
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:1b2bb531-5335-4e96-b9c8-e3b3afee3291@1b2b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270718
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:4a8c5315-b220-4c25-8150-c4058194a22b@4a8c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270915
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:c175dc16-b2e5-41f5-850d-10ba9864ebd8@c175.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270111
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:032d6bf0-8efd-4c04-a035-d84e70707e83@032d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271105
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:6125cf20-4aa2-4a6c-842f-caf0da9c14ba@6125.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271115
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:59d5409f-b7f3-4501-8b75-e3d2ab727454@59d5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270414
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:35f7f8e3-a90c-4ca1-86dc-586c5497ee22@35f7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270707
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:014ecdbd-b52b-4c9b-a48f-4231ac430776@014e.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260617
@@ -2834,58 +1118,16 @@ SUMMARY:15 km Aerobic Run
 UID:9e81e039-437c-4502-8ce8-968276873f01@9e81.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270122
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:d67bb86a-6773-40c1-b7a3-adb31b6b483f@d67b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270925
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:6c9ea6ad-eae9-4e8e-aea4-1a1d1532385f@6c9e.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260731
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:8b688ff3-e317-4204-bfa0-cfbd39f22afa@8b68.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270515
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:c2626f56-4834-486d-ab04-0fa8b5fd6ea8@c262.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271117
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:b7297196-16f1-4b26-826c-5ad8393ee0e4@b729.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261119
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:64c51b0b-f595-46da-9132-678c89212b41@64c5.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260503
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:eb816fd0-206b-4531-8729-c5e54c732371@eb81.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270519
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:5d6f31f1-b49f-4be1-8cd1-2de0b01288f6@5d6f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270401
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:2c1efe3c-db7d-4d89-85b1-eddd8f253a84@2c1e.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260807
@@ -2898,12 +1140,6 @@ DTSTART;VALUE=DATE:20261009
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:177fb0f4-eb32-47f0-aa13-ea2889c91eeb@177f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270809
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:a43220d3-f194-4a84-ac42-805ff0062d46@a432.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260715
@@ -2924,52 +1160,10 @@ SUMMARY:13 km Steady Run
 UID:38e33288-49d6-4a76-9bad-5386a9d6f208@38e3.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271001
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:423cf3e8-76d4-46cc-8cf9-e2270a3a947c@423c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270309
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:4f1ed0c5-5488-4f38-afa8-79a4ded8349c@4f1e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270815
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:3252f37d-23eb-4419-b2b4-2caabc27f0eb@3252.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270102
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:1b4710b4-84c6-48e5-89e2-2a2a22ecc569@1b47.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270510
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:d23133b3-831b-4b6f-a975-6b59e2f5e41d@d231.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260414
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:3485bfdb-4653-400e-8bc1-c8a152c7d1aa@3485.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270524
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:076013ee-b979-4a51-981c-9f6190b26be6@0760.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270819
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:2fd27872-acf7-4f35-868a-3e886d5b2b6d@2fd2.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260501
@@ -2984,48 +1178,6 @@ SUMMARY:13 km Threshold Session
 UID:41d9bdcd-d01c-495d-8f0d-02b43211710a@41d9.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270606
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:0da589ce-8e52-4431-a172-bc98d0b0ad2e@0da5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270808
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:2d9b7443-9c81-4742-812a-571ae8e6cb3d@2d9b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270816
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:053ed0a5-d2c4-4f9b-a3c5-725227761393@053e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261212
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:ec4255da-0cee-4a2a-875b-228971be2b05@ec42.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261214
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:cfba311f-813f-4cde-b19a-3a37428bcdf5@cfba.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270717
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:a6950485-daf6-4987-92fe-5c8bca504fb4@a695.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261228
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:624c1c77-7749-49c5-a5cd-2722c008017b@624c.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260314
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
@@ -3036,12 +1188,6 @@ DTSTART;VALUE=DATE:20260503
 DESCRIPTION:Benchmark marathon effort.
 SUMMARY:RACE: Flying Pig Marathon (42.2 km)
 UID:080d1fe1-6b09-416d-9c06-e198930f2e23@080d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271020
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:5d1026f3-6ed5-475e-80d6-5da6697c4e9b@5d10.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260520
@@ -3062,30 +1208,6 @@ SUMMARY:15 km Aerobic Run
 UID:45fec557-4e0b-4da4-a7bc-69fec77418af@45fe.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261117
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:b8fc8153-8975-4220-90c4-04e1c93b08f9@b8fc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270203
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:dace9a86-c437-4350-863f-752c85b8e06a@dace.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270927
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:1cb4961d-7b70-4a02-850c-ffd13bf74abd@1cb4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270921
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:8853e5a7-4a42-49a4-8c0e-b6a1f199d72b@8853.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260425
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
@@ -3098,52 +1220,16 @@ SUMMARY:Strength Training (20–30 min)
 UID:0a42c935-ac37-43ba-96d8-881530d7ed37@0a42.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270323
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:6cde653e-574d-4f63-9f34-e50464c89ea5@6cde.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271102
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:920ae64f-d54a-4c15-8d86-4d7d2c32f16d@920a.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260804
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:6637bcbd-1ebd-44d2-8dad-4da368fca73b@6637.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270911
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:833c0684-a8c9-4a6f-903d-f700f8f6348f@833c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270810
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:4ff85728-6bbb-4d46-8f2e-e31ef50f1398@4ff8.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260402
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:3479ec71-18ff-42eb-a135-9b70235463a6@3479.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270827
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:4e2ebcdc-14af-4e3e-862a-076dd3a087f7@4e2e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270725
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:b62cf528-bd25-4690-bfd9-66fe305d69e8@b62c.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260616
@@ -3164,46 +1250,16 @@ SUMMARY:Strength Training (20–30 min)
 UID:095acd82-ab43-4d68-8506-d1df39b8a3e9@095a.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261229
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:ac67420c-19fd-4ada-965c-22e061133324@ac67.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270507
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:00c122fc-794c-4f70-ac10-a06c19f50004@00c1.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260810
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:d1bca456-eb5c-4c91-be5f-304cd62ced00@d1bc.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270502
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:e7bdc49a-34eb-463c-87f1-7f1a527595cf@e7bd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270703
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:1b4cd437-50a4-4a70-99f1-1f427fec52bb@1b4c.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260303
 DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
 SUMMARY:13 km Threshold Session
 UID:7d7c9978-1712-43b1-9824-f9e2fa8b257f@7d7c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270415
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:142bd90e-fc42-4dbc-976f-57f5e5dd0ad4@142b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260629
@@ -3224,34 +1280,10 @@ SUMMARY:15 km Aerobic Run
 UID:b6259084-816a-4ac1-b6fc-2e8bddbba8af@b625.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271206
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:6cd73b71-e5ce-4c4a-a098-c0c911e8222a@6cd7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271207
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:69653909-8349-4aee-b4dd-d7c5ee45f713@6965.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260221
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:37c714a3-adb6-4ca1-a8df-fd710894f4ac@37c7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271227
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:0845d6c4-155a-43c9-bc69-413d658d9820@0845.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270328
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:79143e72-d0a9-4b7b-a55c-823e20a4569b@7914.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260301
@@ -3260,58 +1292,10 @@ SUMMARY:15 km Recovery Run
 UID:01f23138-ec8c-4f62-a946-8e299f3aa759@01f2.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270303
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:492d6454-9b91-4aa8-b7fa-781da8e94e25@492d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270525
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:35960d7c-ea6e-40a0-ac02-1cefc5df230c@3596.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271116
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:98dc4b01-2e29-4901-8859-356417849177@98dc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270121
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:1b68f1ce-dff0-4580-a276-afa824d963ca@1b68.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260302
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:7eefa97b-e7a0-48d5-bdf6-56bda61c5648@7eef.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270910
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:70ef4d65-5485-43f5-b5ee-a949fcda83a3@70ef.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270818
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:64f3ce5d-5eeb-4183-a9fa-99e446279e65@64f3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271018
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:ee7a2e6a-dd28-4b77-a3ba-be97e0e873f7@ee7a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271225
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:ddf2bcd7-e62f-4438-840a-52a81ec5b3ab@ddf2.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261024
@@ -3320,94 +1304,10 @@ SUMMARY:29 km Long Progressive Run
 UID:066e213a-0111-4680-a888-670e0d13abd5@066e.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270831
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:3207170f-7034-484f-a713-994e08ebf6fc@3207.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270204
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:811ea308-0847-4d0b-8c4f-2e1fe40bb721@811e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270425
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:f2e8d6d1-be12-4e3f-aa9d-05a73efaf0c5@f2e8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270720
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:49008803-980e-4e84-887f-e7940ad71adc@4900.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270205
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:d494ca20-75d9-4b50-9f1f-408a7d87b92b@d494.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270802
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:289e8ece-1880-4702-a384-628a1419ee4e@289e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270805
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:b17cc08e-9a93-4ecd-935a-bc71c00af37a@b17c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270110
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:5c4b57ff-081a-46de-9509-e48483bca8bd@5c4b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261224
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:b1233ad2-4afb-4b18-a3a1-d80345e1bea2@b123.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261110
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:05321037-ea67-44f1-a041-b4642b9a1cb6@0532.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271011
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:c1ce7cc3-071b-422a-83c4-7d55c90f3cd0@c1ce.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270501
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:22a4e453-57df-46bc-89df-1bca01e6372a@22a4.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260416
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:13f77273-8c68-4a05-90db-ff43877e5834@13f7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270621
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:d8d32b4c-3441-44cc-8f89-6343c4778810@d8d3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270407
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:5ac69446-2d31-4fe5-972d-93190607d2d8@5ac6.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261007
@@ -3416,52 +1316,10 @@ SUMMARY:15 km Aerobic Run
 UID:caa0c62c-070f-4011-8222-7f4a397b4c79@caa0.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270127
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:cfd87031-4e05-4e2c-8e32-20e6008705a8@cfd8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270714
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:bc040d2b-f2fc-4c0e-b8a2-92ff77f8f235@bc04.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270325
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:e5ee110c-3f28-4fff-aff5-0850ce2d0212@e5ee.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270724
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:5f1f07f3-1311-44ab-9ced-c372a7a791a6@5f1f.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260920
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:06d1cafa-20ba-41fc-bd0c-14f7f6dd6a5f@06d1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261124
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:071e0d37-2488-42f1-b0ff-2bfd92f65425@071e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270212
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:05e6d09a-f6f7-420e-bf7c-817567a96687@05e6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261122
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:ed82f4ea-1afc-4dc9-a0fa-6171d935594e@ed82.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260505
@@ -3470,34 +1328,10 @@ SUMMARY:13 km Threshold Session
 UID:093f5455-3905-4c14-85db-581ad2abb483@093f.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271017
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:40ed2b68-2003-44eb-80e3-ea688482de8e@40ed.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270906
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:cd33938b-8fac-4783-925f-abdcfc0dcb8f@cd33.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270604
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:7f2ec0d6-2e18-4799-8b4a-cc4f9745b191@7f2e.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260921
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:cd09f640-c5ce-4cf6-b3d1-eef43402489d@cd09.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270426
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:de551074-c99b-4780-98a4-a3e13d391695@de55.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260806
@@ -3518,28 +1352,10 @@ SUMMARY:15 km Aerobic Run
 UID:feae054c-148e-4be0-a756-c197405798d2@feae.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270126
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:9e83c8ee-1f69-469b-ae08-1846116c4f83@9e83.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270705
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:3931d064-8861-41e3-87f7-ed436ee29f8a@3931.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260619
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:1bb3b228-3529-4a0f-899a-41401f8cff6c@1bb3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270531
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:da826641-1b65-4e08-95e8-988a759a61d1@da82.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260907
@@ -3566,52 +1382,16 @@ SUMMARY:Strength Training (20–30 min)
 UID:175d1a3a-436c-4e61-bd46-5e4b12e2596d@175d.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270701
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:8c604638-bd31-4352-a13e-314c051848a7@8c60.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260720
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:2b1b4bf8-bfcf-44f4-9483-fe2ddbfd0456@2b1b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261216
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:795e79d7-51a3-4787-aca4-3d49045ea926@795e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261220
-DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:15 km Recovery Run
-UID:b8b57727-5f6e-40f0-aa5d-8caa3704c0cb@b8b5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270106
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:d8db5dd0-fda0-49b9-b169-739856f079fd@d8db.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:dc165394-81de-4207-b1ea-73a885d69b9e@dc16.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270202
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:09f29d6d-da17-4559-a6f1-26576f24dfd9@09f2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270828
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:09cf0fda-d793-4937-a4d2-420d65c81955@09cf.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260429
@@ -3632,28 +1412,10 @@ SUMMARY:Strength Training (20–30 min)
 UID:098ef837-4def-41e6-a657-399c3c868342@098e.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270512
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:5615a2ef-c9f8-442e-82ab-4df6f0d4d697@5615.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260820
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:592b0017-3317-48f0-9f67-c980b418e5f1@592b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270623
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:6729077c-dfdf-4bc2-83e7-4005bd85c2d5@6729.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270709
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:262ba7fb-d777-4cc3-80f7-c8ca5cfb7c87@262b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260220
@@ -3662,28 +1424,10 @@ SUMMARY:13 km Steady Run
 UID:ed10e291-7c6f-474d-ba40-a4aec86bf1dd@ed10.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270404
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:4c88aa9a-aae6-4be9-9d6d-cd6ee7c99eec@4c88.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260308
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:ec0ed181-097d-4a14-88a2-4a16e00eb8a1@ec0e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261230
-DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:15 km Aerobic Run
-UID:a3b49c02-f728-47c8-8b36-63c897d272df@a3b4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270219
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:8d4161a1-7147-49d5-97db-36c74e90e7d5@8d41.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260822
@@ -3696,18 +1440,6 @@ DTSTART;VALUE=DATE:20260708
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:4d8523a9-5adb-430b-ad11-51c2f581b550@4d85.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270503
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:721f2c7e-b1f5-47d4-8565-10361806eb19@721f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270807
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:d88d7aa1-a788-43a1-b4ea-d40e3d589263@d88d.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260709
@@ -3728,46 +1460,16 @@ SUMMARY:13 km Steady Run
 UID:0e910e94-65e3-4223-bb66-bdb01beaba96@0e91.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261215
-DESCRIPTION:3 km warm-up @ 5:30–5:45/km\n\nMain Set:\n3 x 10 min @ 4:45–5:00/km\n2 min float @ 5:05–5:20/km between reps\n\nCool down to 13 km total\n\nGoal: Raise lactate threshold
-SUMMARY:13 km Threshold Session
-UID:e720f3ec-8e62-4524-80f1-b8d4ea4121a2@e720.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:0953f19b-71d2-4945-9239-c0618d19d489@0953.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270511
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:60ce152c-71c0-473a-9732-1c08b4481595@60ce.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260621
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:827bbe61-09ea-4771-87cc-e62197523320@827b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261219
-DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:29 km Long Progressive Run
-UID:7ce1931b-df94-48ec-80b5-be7cb6308456@7ce1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270806
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:b944b74c-6716-4b88-a4fe-5a2c879b1bd1@b944.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270710
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:c2a0ebe8-26bd-4b95-a902-5459fc15e810@c2a0.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261006
@@ -3782,34 +1484,10 @@ SUMMARY:13 km Threshold Session
 UID:2da86cb8-825b-4e88-b0ef-2d7cd03ef84f@2da8.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270402
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:ee9070a7-26af-4a47-b158-a7019ae0d437@ee90.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261023
 DESCRIPTION:4 km @ 5:30–5:45/km\nMiddle block @ 5:05–5:20/km\nFinish easy to total 13 km\n\nGoal: Improve aerobic durability.
 SUMMARY:13 km Steady Run
 UID:89a3239d-6742-4854-8860-efcb6605a83a@89a3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270926
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:195dbf55-bd22-4b89-81ec-41c0ca55daa1@195d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270108
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:8befd7db-a99b-408a-83cf-83884a5b54ae@8bef.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271028
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:279711ec-a007-4676-b1bb-56ba786d65fa@2797.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260808
@@ -3818,22 +1496,10 @@ SUMMARY:29 km Long Progressive Run
 UID:c1ab29b2-bb24-45fe-a8e4-2805d5cad6bf@c1ab.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270412
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:6232d444-46af-45a8-9a66-d66948478a6c@6232.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260712
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:5baf3a6f-916b-4df5-8524-2bcaba95b22f@5baf.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270826
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:ff292f7c-6dcf-4403-be38-183cbe419a6e@ff29.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260922
@@ -3842,106 +1508,16 @@ SUMMARY:13 km Threshold Session
 UID:e753ef42-6556-436a-98ef-17b607017936@e753.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271121
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:546f68c6-33ab-4f1a-82d3-8634ab0feba8@546f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270307
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:60dcf401-61d6-404c-b73a-ba432aabb6fe@60dc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270223
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:8c8d0f91-cb0a-4dc7-9dbd-17721a918159@8c8d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270320
-DESCRIPTION:First 60% @ 5:10–5:25/km\nNext 25% @ 4:50–5:00/km\nFinal 15% @ 4:15–4:20/km\n\nGoal: Marathon economy under fatigue.
-SUMMARY:33 km Long Progressive Run
-UID:89acc230-1aa1-49b7-a756-9efefdc3e6e7@89ac.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271022
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:7adc0a57-7525-4fed-b3b8-829b2e885008@7adc.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260801
 DESCRIPTION:First 60% @ 5:30–5:45/km\nNext 25% @ 5:05–5:20/km\nFinal 15% @ 4:40–4:50/km\n\nGoal: Marathon economy under fatigue.
 SUMMARY:29 km Long Progressive Run
 UID:b46220ee-fffe-4e3c-8fb8-1322093f0ddf@b462.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270822
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:96f935a1-2560-491f-b394-315d7fe1676a@96f9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271118
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:f4013f5e-0e84-4695-ac3e-820a0fe997af@f401.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260716
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:8638ca05-3059-41bc-8081-d9fceec817bb@8638.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270824
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:23841420-b5aa-4cea-b647-d730eb8612bc@2384.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271014
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:74474944-ce17-4966-96c2-b8fad8103494@7447.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270930
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:a54be255-684e-4503-b443-5439db6bdd42@a54b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271027
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:eb2e4709-494a-4203-846e-f96535b6ee64@eb2e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270304
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:bd92e02d-9c4c-44e7-a6f0-6fc92636d070@bd92.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270804
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:6b5463b4-f400-461c-8245-b30aaddb3ea7@6b54.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271024
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:89e8d529-7445-4296-93e3-8ce85d931a6c@89e8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270113
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:338da197-7ad2-47ea-8f8c-eca060774142@338d.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260307
@@ -3956,46 +1532,16 @@ SUMMARY:Strength Training (20–30 min)
 UID:e9a7d1ee-4676-4a9a-93d3-3eec4edb712e@e9a7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270210
-DESCRIPTION:Full run @ 5:10–5:25/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
-SUMMARY:18 km Aerobic Run
-UID:2d163d41-b908-4e58-8d62-a265a68d9cf9@2d16.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270601
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:07e67d40-c640-4677-b92b-ccd04114d4cd@07e6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271109
-DESCRIPTION:3 km warm-up @ 5:10–5:25/km\n\nMain Set:\n3 x 10 min @ 4:25–4:35/km\n2 min float @ 4:50–5:00/km between reps\n\nCool down to 15 km total\n\nGoal: Raise lactate threshold
-SUMMARY:15 km Threshold Session
-UID:17812173-cab3-45df-adfe-3e89873538f0@1781.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261008
 DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
 SUMMARY:Strength Training (20–30 min)
 UID:d9715b29-0718-4424-80d3-f4d0e83a6414@d971.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261210
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:c5ea611d-f27f-426e-9beb-b8502d4ead45@c5ea.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260422
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:6eb3d506-65e9-4f40-890e-d5ccaf3cca9c@6eb3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270523
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:132104fe-3a21-41b9-8f69-1c5ae3152176@1321.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261017
@@ -4008,12 +1554,6 @@ DTSTART;VALUE=DATE:20260527
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
 UID:e105239f-88a3-4b52-94ee-e7e2e5b82f18@e105.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270716
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:4ed73556-60a8-4e05-9544-79566f9d0bfb@4ed7.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260813
@@ -4040,12 +1580,6 @@ SUMMARY:13 km Steady Run
 UID:aaf76ef2-094a-4315-ac2e-ab2e904a5d37@aaf7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271003
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:ac157768-ac15-4095-9161-f00ad3fdf84d@ac15.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260304
 DESCRIPTION:Full run @ 5:30–5:45/km\n\nKeep HR low and relaxed.\nGoal: Aerobic volume.
 SUMMARY:15 km Aerobic Run
@@ -4058,51 +1592,205 @@ SUMMARY:Strength Training (20–30 min)
 UID:a54e8cc6-ba00-493f-a323-fc4b19095532@a54e.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271219
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:af72f050-094c-46d4-80b0-8734bd5418e2@af72.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271107
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:f2bcf5f4-ff81-4a04-bccf-92da6085f5a2@f2bc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270820
-DESCRIPTION:4 km @ 5:10–5:25/km\nMiddle block @ 4:50–5:00/km\nFinish easy to total 15 km\n\nGoal: Improve aerobic durability.
-SUMMARY:15 km Steady Run
-UID:32485dda-f190-4e26-8e0e-f208387a46fe@3248.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270919
-DESCRIPTION:Very relaxed @ 5:10–5:25/km\n\nKeep cadence smooth.\nFlush fatigue.
-SUMMARY:18 km Recovery Run
-UID:fd628eb0-1c49-4f86-afcf-9be508f5a0d2@fd62.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270429
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:9a7693d2-f831-4b64-b436-aa8be085b7e2@9a76.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261101
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:fc847525-0754-483c-9704-6aedbab4bb78@fc84.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270218
-DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n\nPurpose: Injury resistance & power
-SUMMARY:Strength Training (20–30 min)
-UID:271311da-21c2-4666-802d-11ccdf5fa617@2713.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261108
 DESCRIPTION:Very relaxed @ 5:30–5:45/km\n\nKeep cadence smooth.\nFlush fatigue.
 SUMMARY:15 km Recovery Run
 UID:13441e6b-d3a3-4f2c-918e-3830ccfd7218@1344.org
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261110@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:4 km easy
+DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261111@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Run club (5.5 km easy)
+DESCRIPTION:Pacing the group\n\nYour fixed run. Counts as easy when you're 
+ pacing.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:str-20261113@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Strength Training (20 min)
+DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n
+ \nPurpose: Injury resistance & power
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261114@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:4 km easy
+DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:str-20261116@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Strength Training (20 min)
+DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n
+ \nPurpose: Injury resistance & power
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261117@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:4 km easy
+DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261118@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:6.5 km easy
+DESCRIPTION:6:00–6:25/km\n\nRun club is in Cincinnati\, so an easy run in
+ stead.\n\nNote: Away from run club\n\nPlanned by your Daily Desk coach\, 2
+ 026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261119@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:4 km easy + strides
+DESCRIPTION:6:00–6:25/km\n\nEasy\, then 6 × 20 s relaxed strides with fu
+ ll walk-back recovery.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:str-20261120@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Strength Training (20 min)
+DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n
+ \nPurpose: Injury resistance & power
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261121@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:4 km easy
+DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261122@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:9.5 km long run
+DESCRIPTION:6:00–6:25/km\n\nAerobic endurance. Relaxed\, conversational t
+ he whole way.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:str-20261123@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Strength Training (20 min)
+DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n
+ \nPurpose: Injury resistance & power
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261124@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:5 km easy
+DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261125@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Run club (7 km easy)
+DESCRIPTION:Pacing the group\n\nYour fixed run. Counts as easy when you're 
+ pacing.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261126@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:5 km easy + strides
+DESCRIPTION:6:00–6:25/km\n\nEasy\, then 6 × 20 s relaxed strides with fu
+ ll walk-back recovery.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:str-20261127@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Strength Training (20 min)
+DESCRIPTION:• Split squats\n• RDLs\n• Calf raises\n• Core circuit\n
+ \nPurpose: Injury resistance & power
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261128@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:5 km easy
+DESCRIPTION:6:00–6:25/km\n\nEasy aerobic running. Keep it conversational.
+ \n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-20261129@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:11 km long run
+DESCRIPTION:6:00–6:25/km\n\nAerobic endurance. Relaxed\, conversational t
+ he whole way.\n\nPlanned by your Daily Desk coach\, 2026-11-10.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:race-20270717@ms-runs
+DTSTAMP:20261110T122306Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:RACE: UTMB Eiger E16
+DESCRIPTION:16 km\, about 950 m of climb.
+TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
